@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+header{
+    background-color: white;
+    border-color: red;
+    border: 100px;
+    margin: 2% auto;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+header img{
+    margin-left: 6%;
+    width: 5%;
+}
+
+header a:hover{
+    font-size: 2.3em;
+    transition: font-size 1s;
+}
+
+header a{
+    color: black;
+    font-size: 1.5em;
+    transition: font-size 1s;
+}
+
+#global{
+    background-color: white;
+    margin: 0% auto;
+    width: 95%;
+}
+
+#accueil h2{
+    text-align: center;
+}
+
+#accueil ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
