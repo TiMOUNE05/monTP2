@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tp2 Pourquoi j'aime les jeux vidéos?</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+
+    <!--Le contenue de la section header-->
+    <header>
+        <h1>Pourquoi j'aime les jeux vidéos?</h1>
+        <img src="images/manette-de-jeu.jpg" alt="manette de jeu vidéo">
+        <nav id="menu">
+            <a href="#accueil">Accueil</a>
+            <a href="#inscription">Inscription</a>
+            <a href="#article">Article</a>
+            <a href="#tableau">Tableau</a>
+            <a href="#galerie">Galerie</a>
+            <a href="#video">Vidéo</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+    </header>
+    
+    <!--Le contenue de la section global-->
+    <section id="global"> 
+    
+    <!--Le contenue de la section accueil-->
+    <section id="accueil">
+        <h2>ACCUEIL</h2>
+        <ul>
+            <li>TP2</li>
+            <li>Pourquoi j'aime les jeux vidéos?</li>
+            <li>Yohan Jacques</li>
+            <li>582-1W1-Mise en page Web</li>
+            <li>Technique d'intégration multimédia</li>
+            <li>Collège de Maisonneuve</li>
+            <li>Adresse de la Github page: https://timoune05.github.io/monTP2/</li>
+            <li>Automne 2023</li>
+        </ul>
+    </section>
+    
+    <!--Le contenue de la section inscirption-->
+    <section id="inscription">
+        <form action="traiter_form.php">
+            <h2>Inscription</h2>
+            <fieldset>
+            
+            <p>Sexe:</p>
+            <!--bouton de type radio-->
+            <input type="radio" id="sexeH" name="sexeH" value="Homme">
+            <label for="sexeH">Homme</label> <br>
+            <input type="radio" id="sexeF" name="sexeF" value="Femme">
+            <label for="sexeF">Femme</label> <br>
+            <input type="radio" id="sexeA" name="sexeA" value="Autres">
+            <label for="sexeA">Autres</label><br>
+             
+            <!--bouton de type text-->
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom"><br>
+            
+            <!--bouton de type date-->
+            <label for="nom">Date de naissance:</label>
+            <input type="date" name="date" id="date"><br>
+            
+            <!--bouton de type range-->
+            <label for="nom">Appréciation pour les jeux vidéo:</label>
+            <input type="range" name="appréciation" id="appréciation"><br>
+             
+            <!--bouton de type submit-->
+            <input id="bouton" type="submit" value="Soumettre" aria-label="Soumettre">
+
+
+            </fieldset>
+            </form>
+    </section>
+
+    <!--Le contenue de la section article-->
+    <section id="article">
+    <h2>ARTICLE</h2>
+    
+    <!--premier article 'Les jeux vidéo m'évadent'-->
+    <div id="articleFlexbox">
+    <div id="articleProbleme">
+        
+        <h3>Les jeux vidéo m'évadent</h3>
+        <p>C'est une expérience précieuse que je chéris, car elle me permet de prendre du recul par rapport à mes soucis et de retrouver un sentiment de légèreté.</p> 
+            <img src="images/articleProbleme.jpg" alt="Appréciation de jouer au jeux vidéos">  
+        <p>Les jeux vidéo sont une véritable bouffée d'air frais dans ma vie, et je suis reconnaissant de pouvoir m'évader ainsi lorsque j'en ressens le besoin.</p>
+        
+    </div>
+
+    <!--deuxièment article 'Mon jeux préférer'-->
+    <div id="articleAssassinsCreed">
+        
+        <h3>Mon jeux préférer</h3>
+        <p> Assassin's Creed 2 est un jeu vidéo captivant qui mêle histoire, décors et personnages. L'intrigue fascinante, située dans la Renaissance italienne, m'a toujours captivé.</p> 
+            <img src="images/assassins-creed2.jpg" alt="image de assassins creed 2">  
+        <p> Les décors somptueux et réalistes offrent une immersion totale dans l'époque. Enfin, le personnage principal, Ezio, est charismatique et attachant, ce qui rend l'expérience de jeu encore plus passionnante.</p>
+        
+    </div>
+   </div>
+
+
+    </section>
+
+    <!--Le contenue de la section tableau-->
+    <section id="tableau">
+
+    <h2>Tableau</h2>
+    <table>
+        <caption>Mon top 5 de jeux vidéo</caption>
+        <tr>
+            <th>Classement</th>
+            <th>Jeu</th>
+            <th>Genre</th>
+            <th>Note</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Assassin's Creed</td>
+            <td>Action-Aventure</td>
+            <td>****</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Halo Reach</td>
+            <td>Action</td>
+            <td>****</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Call of duty BO3</td>
+            <td>FPS</td>
+            <td>****</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Nba 2k17</td>
+            <td>Sport</td>
+            <td>****</td> 
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>saint row 3</td>
+            <td>Action-Aventure</td>
+            <td>****</td> 
+        </tr>
+
+    </table>   
+
+    </section>
+
+    <!--Le contenue de la section galerie-->
+    <section id="galerie">
+
+    <h2>Galerie d'image</h2>
+    
+    <div id="image">
+    <img src="images/assassins-creed2.jpg" alt="image assassins creed 2">
+    <img src="images/halo-reach.jpg" alt="image de Halo reach">
+    <img src="images/callofdutyblackops3.jpg" alt="image de Call of duty Black ops 3 ">
+    <img src="images/2K17.jpg" alt="image de nba 2k17">
+    <img src="images/Saint-row-3.jpg" alt="image de Saint row 3">
+    </div>
+
+    </section>
+
+    <!--Le contenue de la section vidéo-->
+    <section id="video">
+
+     <h2>Vidéo</h2>
+
+     <p>Voici une vidéo qui permet d'apprendre et aussi permet de mieu comprendre l'histoire des jeux vidéo.</p>
+    
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/RyCCrreaTcw?si=1QhNpcSXFC0n7T2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+    </section>
+
+    <!--Le contenue de la section footer-->
+    <footer id="contacts">
+
+    <p>adresse college maisonneuve:3800 R. Sherbrooke E, Montréal, QC H1X 2A2</p> 
+    
+    <a href="https://www.youtube.com/embed/RyCCrreaTcw?si=1QhNpcSXFC0n7T2E">lien de la vidéo sur l'histoire des jeux vidéo:</a>
+    
+    <p>582-1W1-Mise en page Web</p>
+    
+    <div id="icone">
+    <ion-icon name="logo-instagram"></ion-icon>
+    <ion-icon name="logo-facebook"></ion-icon>
+    <ion-icon name="logo-youtube"></ion-icon>
+    <ion-icon name="logo-twitter"></ion-icon>
+    </div>
+   
+    <p>Avis de confidentialité | Privacy Notice</p>
+    </footer>
+
+    </section>
+    
+
+<!--les liens des scripts Javascript pour les icones-->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
