@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*les caractéristques de l'élément body*/
+body{
+    /*image de fond*/
+    background-image: url(images/background.jpg);
+    /*famille de police*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+/*les caractéristques de la section header*/
+header{
+    background-color: white;
+    border: 20px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    width: 92.5vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header h1{
+    font-size: 3em;
+    /*transformation appliquée au titre header*/
+    text-shadow: 2px -2px 3px rgb(0, 0, 0);
+}
+
+/*modification de l'image dans le header*/
+header img{
+    margin-left: 6%;
+    width: 5%;
+}
+
+/*transition apliquée au menu*/ 
+header a:hover{
+    font-size: 2.3em;
+    transition: font-size 1s;
+}
+
+/*les caractéristques de la section menu*/
+header a{
+    color: black;
+    font-size: 1.5em;
+    transition: font-size 1s;
+}
+
+/*les caractéristques de la section global*/
+#global{
+    background-color: white;
+    margin: 0% auto;
+    width: 95vw;
+}
+
+/*les caractéristques de la section accueil*/
+#accueil{
+    width: 95vw;
+}
+
+/*les caractéristques du sous-titres accueil*/
+#accueil h2{
+    text-align: center;
+    font-size: 3em;
+     /*transformation appliquée au sous-titres accueil*/
+    text-shadow: 2px -2px 3px rgb(0, 0, 0);
+}
+
+/*les caractéristques de la liste de l'accueil*/
+#accueil ul{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*les caractéristques de section inscription*/
+#inscription{
+    margin: 10% auto;
+    width: 95vw;
+}
+
+/*caractéristique de la police d'inscription*/
+#inscription label,p{
+    font-size: 2em;
+    
+}
+
+/*caractéristique de la police du sous-titre d'inscription*/
+#inscription h2{
+    text-align: center;
+    font-size: 3em;
+    /*transformation appliquée au sous-titres inscription*/
+    text-shadow: 2px -2px 3px rgb(0, 0, 0);
+}
+
+/*caractéristique des boutons d'inscription*/
+input{
+    margin-top: 1.2%;
+ 
+}
+
+/*les caractéristques de l'élément article*/
+#articleFlexbox{
+    width: 95vw;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/*modification de l'image dans la section article*/
+#article img{
+    margin: 1% 13%;
+    width: 60%;
+}
+
+/*caractéristique de la police du sous-titre de l'élément article*/
+#article h2{
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px -2px 3px rgb(0, 0, 0);
+}
+
+/*caractéristique de la police h3 de l'élément article*/
+#article h3{
+    font-size: 2em;
+    text-align: center;
+}
+
+/*les caractéristques de la section article*/
+#article{
+    width: 95vw;
+}
+
+/*les caractéristques de l'élément 'les jeux vidéo m'évadent' de la section article*/
+ #articleProbleme{
+    margin-bottom: 15.5%;
+    margin-left: 10%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*les caractéristques de l'élément 'Mon jeux préférer' de la section article*/
+#articleAssassinsCreed{
+    margin-right: 10%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*caractéristique de la police du sous-titre de section tableau*/
+#tableau h2{
+    margin-top: 10%;
+    font-size: 3em;
+    text-align: center;
+     /*transformation appliquée au sous-titres tableau*/
+    text-shadow: 2px -2px 3px rgb(0, 0, 0);
+}
+
+/*les caractéristques de la section tableau*/
+#tableau{
+    width: 95vw;
+}
+
+/*les caractéristques de l'élément table*/
+table{
+    margin: 5% auto;
+    width: 60%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+}
+
+td,th{
+    border: 1px solid black;
+}
+
+table caption{
+    margin: 0% auto;
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+
+table th{
+    font-size: 2em;
+}
+
+table td{
+    font-size: 1.5em;
+}
+
+th{
+    background-color: rgb(255, 255, 255);
+}
+
+td:nth-child(even) {
+    background-color: rgb(222, 34, 34);
+}
+
+td:nth-child(odd) {
+    background-color: rgb(237, 27, 27);
+}
+
+
+#galerie{
+    width: 95vw;
+}
+
+/*les caractéristques de l'élément galerie*/
+#image{
+    margin: 0% auto;
+    padding: 5px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/*caractéristique de la police du sous-titre de section galerie*/
+#galerie h2{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px -2px 3px rgb(0, 0, 0);
+}
+
+/*modification de l'image dans section galerie*/
+#galerie img{
+    width: 10%;
+}
+
+
+/*caractéristique de la police du sous-titre de section vidéo*/
+#video h2{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px -2px 3px rgb(0, 0, 0);
+}
+/*caractéristique de la police du paragraphe dans section vidéo*/
+#video p{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+/*les caractéristques de l'élément iframe de la section video*/
+iframe{
+    margin-left: 30.5%;
+}
+
+/*les caractéristques de section footer*/
+footer{
+    width: 95vw;
+    height: 200px;
+    margin-top: 2%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*changement de couleur des l'éléments icone de la section footer*/
+ion-icon{
+    color:white;
+}
+/*les caractéristques des l'éléments icone de la section footer*/
+#icone{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
